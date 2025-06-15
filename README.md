@@ -43,3 +43,11 @@ pip install -r requirements.txt
 
 3. Run the Streamlit app:
 streamlit run app.py
+
+🧪 Dataset Source
+The dataset used is from Our World In Data (OWID). It includes daily updates on COVID-19 cases, deaths, vaccinations, testing, and more.
+https://github.com/owid/covid-19-data
+
+To update your data:
+
+wget https://covid.ourworldindata.org/data/owid-covid-data.csv -O covid_data.csv
